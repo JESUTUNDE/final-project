@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: white;
+    background-image: url(assets/MicrosoftTeams-image.png);
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 60px;
+}
+
+.title{
+    color: white;
+    margin-left: 30px;
+    padding-top: 100px;
+}
+
+.top{
+    background-color: black;
+    width: auto;
+}
+
+.searchbox{
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    /* margin: 0 auto; */
+    
+}
+
+.side{
+    width: 20%;
+    /* border-color: white; */
+    border: 2px solid red;
+    color: black;
+    background-color: white;
+
+}
+
+.files{
+    /* margin-left: 20px; */
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    /* width: 70%; */
+    justify-content: space-between;
+
+}
+
+.files2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.lists li{
+    margin-top: 70px;
+}
+
+/* .logo2{
+    width: 20%;
+    margin-right: 20px;
+} */
+
+.trf{
+    width: 70%;
+}
+
+.filecontainer{
+    width: 70%;
+}
+.click1{
+    color: white;
+    font-style: italic;
+}
